@@ -1,0 +1,234 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.0vw;
+}
+
+#head{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+
+#head > nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    margin: 0px;
+    padding: 8px;
+}
+
+#nav-ul-left{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul-left > li{
+    padding: 6px;
+    margin: 10px;
+}
+
+#nav-ul-right{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul-right > li{
+    padding: 4px;
+    margin: 8px;
+}
+
+#wallpaper{
+    width: fit-content;
+}
+
+#picture{
+    width: 100%;
+}
+
+#about-us-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Georgia', serif;
+    background-color: #f7f1d3;
+}
+
+#about-us{
+    height:55vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#about-us-title{
+    color: #3e2a0f;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#about-us-para{
+    color: #3e2a0f;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+blockquote{
+    margin: 5px;
+    text-align: center;
+}
+
+blockquote > cite{
+    font-size: 20px;
+}
+
+#product-title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#headline{
+    text-align: center;
+}
+
+#casual-box{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#casual-box li{
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#product-item {
+    height: 400px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+figure{
+    padding: 0%;
+    margin: 0%;
+}
+
+#product-item img {
+    padding: 0%;
+    margin: 0%;
+    height: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#product-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#product-price {
+    font-size: 1.0rem;
+    color: black;
+}
+
+body > main > footer{
+    padding: 20px;
+    background-color: #f7f1d3;
+    font-family: 'Georgia', serif;
+    color: #3e2a0f;
+}
+
+body > main > footer > h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3e2a0f;
+}
+
+body > main > footer > div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form{
+    width: 100%;
+    font-size: 18px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.input_box{
+    width: 250px;
+    padding: 2px;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    border: 1px solid #c2a46b;
+    background-color: #f9f7e9;
+    color: #3e2a0f;
+
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #c2a46b;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #a6895d;
+}
+
+body > footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+body > footer > h2{
+    padding-left: 18px;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+    margin-right: 39px;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+    margin: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
